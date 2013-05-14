@@ -1,0 +1,3 @@
+RailsMVC::Application.routes.draw do
+  # routes will go here....
+end
