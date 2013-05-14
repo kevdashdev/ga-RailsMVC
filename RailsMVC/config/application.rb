@@ -15,3 +15,6 @@ module RailsMVC
     config.encoding = 'utf-8'
   end
 end
+
+# enable the asset pipeline
+config.assets.enabled = true
