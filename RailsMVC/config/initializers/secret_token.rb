@@ -1,1 +1,1 @@
-HelloWorld::Application.config.secret_token = 'because chicken came first before egg'
+HelloWorld::Application.config.secret_token = 'greed is good, so good it\'s greedy'

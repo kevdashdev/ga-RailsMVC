@@ -9,7 +9,7 @@ require 'action_controller/railtie'
 Bundler.require :default, Rails.env
 
 # app itself
-module HelloWorld
+module RailsMVC
   class Application < Rails::Application
     # Configure the default encoding used in templates for Ruby 1.9
     config.encoding = 'utf-8'
