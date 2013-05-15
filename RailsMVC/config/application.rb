@@ -15,6 +15,10 @@ module RailsMVC
     config.encoding = 'utf-8'
     # enable the asset pipeline
     config.assets.enabled = true
+    config.generators do |g|
+      g.orm :active_record
+      g.test_framwork :test_unit
+    end
   end
 end
 
